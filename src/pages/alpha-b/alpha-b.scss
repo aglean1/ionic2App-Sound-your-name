@@ -1,0 +1,46 @@
+page-alpha-b {
+
+  div.alphabet div{
+    display: inline-block;
+    padding: 10px 17px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px $mainColor;
+    -webkit-box-shadow: 0px 0px 2px $mainColor;
+    box-shadow: 0px 0px 2px #0e2288;
+    float:left;
+    margin-left:5px;
+    margin-bottom:5px;
+    font-size:30px;
+    font-family: Mistral,Helvetica Neue, Open Sans, sans-serif;
+    text-align:center;
+
+
+
+  }
+
+  #mainContainer{
+    //background-color: $background-color;
+    background-image:url("http://webpage.pace.edu/ag43934n/colornote6.png");
+  }
+
+  ion-item{
+    background-color:transparent;
+    background:none;
+    height:1px;
+  }
+
+  #space{
+    display: inline-block;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px $mainColor;
+    -webkit-box-shadow: 0px 0px 2px $mainColor;
+    box-shadow: 0px 0px 2px #0e2288;
+    font-size:30px;
+    font-family: Mistral,Helvetica Neue, Open Sans, sans-serif;
+    background-color:transparent;
+  }
+}
